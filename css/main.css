@@ -1,0 +1,244 @@
+ 
+/***** BASE STYLES *****/
+Body {
+    font-family: 'hind', sans-serif;
+    font-size: 20px;
+    background-color: #003866;
+
+
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+
+    
+} 
+
+.half-width {
+    width: 600px;
+    float: left;
+    
+    
+    
+}
+
+/***** HEADER *****/
+
+header h1 {
+    font-size: 35px;
+    color: #f9fd09;
+    float: left;
+    
+}
+ 
+
+nav {
+    float: right;
+    clear: both;
+    margin: 20px 0px;
+    padding-left: 40px;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c9cdd1;
+    padding-left: 60px;
+    
+}
+
+
+ header {
+    background-image: url("../img/algorithm.jpg");
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+ }
+    
+    
+}
+
+/***** PORTFOLIO *****/
+
+    
+#my-portfolio {
+    background-color: #003866;
+    margin: ;
+
+}
+
+#my-portfolio h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    padding-bottom: 40px;
+    color: #c9cdd1;
+    letter-spacing: 3px;
+}
+
+#my-portfolio h3 {
+    text-transform: uppercase;
+    color: #c9cdd1;
+}
+
+#my-portfolio p {
+    color: #c9cdd1;
+}
+
+#my-portfolio .half-width {
+    box-sizing: border-box;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+#my-portfolio .jubilee {
+    padding-right: 50px;
+    margin-bottom: 80px;
+
+}
+
+.jubilee-description {
+    float: right;
+    text-align: left;
+    padding: 0px 25px 60px 40px;
+    font-size: 25px;
+}
+
+#my-portfolio h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+#my-portfolio .rogue {
+
+    float: right;
+    clear: both;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    
+    
+
+}
+.rogue-description {
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 25px;
+    
+
+}
+
+.cookies-description {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-size: 25px;
+    
+    
+
+
+}
+#my-portfolio .cookies {
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+/***** ABOUT *****/
+
+span {
+
+  text-transform: lowercase;
+  font-style: italic;
+  
+}
+
+#about-me {
+    background-color: #c9cdd1;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+#about-me h2 {
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    padding-top: 50px;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+#about-me p {
+    font-style: italic;
+    
+}
+
+#about-me a {
+    color: black;
+
+}
+
+
+
+
+.selfie img {
+    float: right;
+    width: 300px;
+    transform: translate(-25%, -25%);
+    border: 10px solid black;
+}
+
+
+/***** CONTACT *****/
+
+footer {
+    height: 100px;
+    clear: both;
+    margin-top: 10px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+    color: #c9cdd1;
+    letter-spacing: 3px;
+}
+
+#contact ul {
+    display: inline-block;
+    margin: 0;
+
+
+}
+#contact ul li {
+    float: left;
+    list-style-type: none;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    color: #c9cdd1;
+
+    
+}
+#contact img {
+    padding-left: 25px;
+}
